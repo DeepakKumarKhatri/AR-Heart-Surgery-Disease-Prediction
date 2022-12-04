@@ -1,13 +1,17 @@
 /********** Template CSS **********/
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 :root {
-    --primary: #2878EB;
-    --secondary: #F14D5D;
+    --primary: #0002A1;
+    --secondary: #FB2576;
     --light: #ECF4FF;
     --dark: #120F2D;
 }
@@ -23,23 +27,37 @@
 h1,
 h2,
 .font-weight-bold {
+    color: #2B3A55;
+    font-family: 'Oswald', sans-serif;
     font-weight: 700 !important;
 }
 
 h3,
 h4,
 .font-weight-semi-bold {
+    color: #2B3A55;
+    font-family: 'Oswald', sans-serif;
     font-weight: 600 !important;
 }
 
 h5,
 h6,
 .font-weight-medium {
+    color: #2B3A55;
+    font-family: 'Oswald', sans-serif;
     font-weight: 500 !important;
 }
 
+.title-primary{
+    color: #28472a;
+}
+.title-secondary{
+    color: #9a3363;
+}
+
+
 .btn {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     transition: .5s;
 }
@@ -93,7 +111,7 @@ h6,
 }
 
 .navbar-light .navbar-nav .nav-link {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Zen Dots', cursive;
     position: relative;
     margin-left: 30px;
     padding: 30px 0;
