@@ -262,28 +262,3 @@ h6,
 .testimonial-carousel .owl-item.center .testimonial-text * {
     color: #FFFFFF !important;
 }
-
-.blog-date {
-    position: absolute;
-    width: 90px;
-    height: 65px;
-    top: 75px;
-    left: -25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background: var(--secondary);
-}
-
-.blog-date::after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    top: -25px;
-    left: 0;
-    border: 13px solid;
-    border-color: transparent #D34351 #D34351 transparent;
-    z-index: -1;
-}
