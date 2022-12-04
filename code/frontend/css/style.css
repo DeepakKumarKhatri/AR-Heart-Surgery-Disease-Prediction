@@ -54,12 +54,17 @@ h6,
 .title-secondary{
     color: #9a3363;
 }
-
+.scroll_top{
+    background-color: #222222;
+}
 
 .btn {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     transition: .5s;
+}
+.footer_section{
+    background-color: #00005C;
 }
 
 .btn-primary,
@@ -103,6 +108,7 @@ h6,
 }
 
 .back-to-top {
+    background-color: #222222;
     position: fixed;
     display: none;
     right: 45px;
