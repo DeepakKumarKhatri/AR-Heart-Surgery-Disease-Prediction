@@ -13,7 +13,7 @@ body{
 .outer-box{
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to top right,#3ed8ff,#29e4b8ed);
+    background: linear-gradient(to top right,#ae426c,#4042c0);
 }
 
 .inner-box{
@@ -24,7 +24,7 @@ body{
     padding: 20px 90px;
     transform: translateY(-20%);
     border-radius: 8px;
-    box-shadow: 2px 2px 5px #24869e;
+    box-shadow: 2px 2px 5px #c34777;
     z-index: 2;
     /* background-color: #ffffff09; */
     background: linear-gradient(to top left,#ffffffff,#ffffff33);
@@ -55,12 +55,12 @@ body{
     margin-top: 4px;
 }
 .singup-body p input[type="submit"]{
-    background: linear-gradient(to top left,#33b9da,#39e4bced);
+    background: #FB2576;
     border: none;
     color: white;
 }
 .singup-body p input[type="submit"]:hover{
-    background: linear-gradient(to top right,#33b9da,#39e4bced);
+    background: #0002A1;
 }
 #footer p{
     font-size: 0.95rem;
@@ -68,7 +68,7 @@ body{
     font-weight: bold;
 }
 #footer p a{
-    color: #2ea8c7;
+    color: #362ec7;
     font-weight: lighter;
 }
 .circle{
@@ -77,12 +77,4 @@ body{
     border-radius: 100px;
     background: linear-gradient(to right,#ffffff33,#ffffffff);
     position: absolute;
-}
-.c1{
-    top: 100px;
-    left: 40px;
-}
-.c2{
-    bottom: 200px;
-    right: 50px;
 }

@@ -6,10 +6,71 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SignUp</title>
+
+  <!-- Favicon -->
+  <link href="/code/frontend/assests/webIcon.png" rel="icon">
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="/code/frontend/external_libraries/flaticon/font/flaticon.css" rel="stylesheet">
+
+  <!-- External Libraries For Animations Connecting -->
+  <link href="/code/frontend/external_libraries/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="/code/frontend/external_libraries/animate/animate.min.css" rel="stylesheet">
+
+
+  <!-- Bootstrap Connecting -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="/code/frontend/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS Connecting -->
+  <link rel="stylesheet" href="/code/frontend/css/style.css">
+  
   <link rel="stylesheet" href="/code/frontend/css/signUpStyle.css" />
+
 </head>
 
 <body>
+
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
+        <a href="index.html" class="navbar-brand ms-lg-5">
+            <h1 class="title-name display-5 m-0 text-primary"><span class="title-primary">Augmented</span><span class="title-secondary" > Medico</span></h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="price.html" class="dropdown-item">Pricing</a>
+                        <a href="team.html" class="dropdown-item">Our Doctor's</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonials</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Get me In</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="/signin.html" class="dropdown-item">Sign-In</a>
+                        <a href="/signup.html" class="dropdown-item">Sign-Up</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
   <div class="outer-box">
     <div class="inner-box">
       <header class="signup-header">
@@ -44,9 +105,73 @@
           <p>Already have an Account? <a href="signin.html">Login</a></p>
         </footer>
     </div>
-    <div class="circle c1"></div>
-    <div class="circle c2"></div>
   </div>
+
+    <!-- Footer Start -->
+    <div class="footer_section container-fluid bg-dark text-light mt-5 py-5 wow fadeInUp justify-content-center" data-wow-delay="0.1s">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Quick Links</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Services</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Testimonials</a>
+                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                    </div>
+                </div>
+               
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Get In Touch</h3>
+                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Park Road, Islamabad Capital, Pakistan</p>
+                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>khatrideepak112@gmail.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+92333-3760281</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Follow Us</h3>
+                    <div class="d-flex">
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="https://twitter.com/DeepKumarKhatri" target="_blank"><i class="fab fa-twitter fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="https://www.facebook.com/DevDeeepakKumar" target="_blank"><i class="fab fa-facebook-f fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="https://www.linkedin.com/in/deepakkumarkhatri/" target="_blank"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://github.com/DeepakKumarKhatri" target="_blank"><i class="fab fa-github fw-normal"></i></a>
+                    </div>
+                </div>
+                <div class="col-12 justify-content-center">
+                    <form class="mx-auto" style="max-width: 600px;">
+                        <div class="input-group">
+                            <input type="text" class="form-control border-white p-3" placeholder="Your Email">
+                            <button class="btn btn-primary px-4">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-primary text-light py-4">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0">&copy; <a class="text-white border-bottom" href="https://github.com/DeepakKumarKhatri" target="_blank">Deepak Kumar Khatri </a> has all Rights Reserved.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+     <!-- JavaScript Libraries -->
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+     <script src="/code/frontend/external_libraries/wow/wow.min.js"></script>
+     <script src="/code/frontend/external_libraries/easing/easing.min.js"></script>
+     <script src="/code/frontend/external_libraries/waypoints/waypoints.min.js"></script>
+     <script src="/code/frontend/external_libraries/owlcarousel/owl.carousel.min.js"></script>
+
+
+     <!-- Template Javascript -->
+    <script src="/code/frontend/logic/index.js"></script>
 
 </body>
 
