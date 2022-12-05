@@ -4,41 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignIn</title>
+    <title>Document</title>
 
-    <!-- Favicon -->
-    <link href="/code/frontend/assests/webIcon.png" rel="icon">
+       <!-- Favicon -->
+       <link href="/code/frontend/assests/webIcon.png" rel="icon">
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+       <!-- Google Web Fonts -->
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+   
+       <!-- Icon Font Stylesheet -->
+       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+       <link href="/code/frontend/external_libraries/flaticon/font/flaticon.css" rel="stylesheet">
+   
+       <!-- External Libraries For Animations Connecting -->
+       <link href="/code/frontend/external_libraries/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+       <link href="/code/frontend/external_libraries/animate/animate.min.css" rel="stylesheet">
+   
+   
+       <!-- Bootstrap Connecting -->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
+       <!-- Customized Bootstrap Stylesheet -->
+       <link href="/code/frontend/css/bootstrap.min.css" rel="stylesheet">
+   
+       <!-- CSS Connecting -->
+       <link rel="stylesheet" href="/code/frontend/css/style.css">
 
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="/code/frontend/external_libraries/flaticon/font/flaticon.css" rel="stylesheet">
-
-    <!-- External Libraries For Animations Connecting -->
-    <link href="/code/frontend/external_libraries/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="/code/frontend/external_libraries/animate/animate.min.css" rel="stylesheet">
-
-
-    <!-- Bootstrap Connecting -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="/code/frontend/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- CSS Connecting -->
-    <link rel="stylesheet" href="/code/frontend/css/style.css">
-    
-    <link rel="stylesheet" href="/code/frontend/css/signInStyle.css">
 </head>
 <body>
-
-    <!-- Navbar Section Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
+     <!-- Navbar Section Start -->
+     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
         <a href="index.html" class="navbar-brand ms-lg-5">
             <h1 class="title-name display-5 m-0 text-primary"><span class="title-primary">Augmented</span><span class="title-secondary" > Medico</span></h1>
         </a>
@@ -70,43 +68,71 @@
         </div>
     </nav>
     <!-- Navbar Section End -->
+        
+        <!-- Contact Start -->
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+                    <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">Contact Us</h5>
+                    <h1 class="display-5 mb-0">Please Feel Free To Contact Us</h1>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-7 wow slideInUp" data-wow-delay="0.3s">
+                        <div class="bg-light rounded p-5">
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control border-0 px-4" placeholder="Your Name" style="height: 55px;">
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="email" class="form-control border-0 px-4" placeholder="Your Email" style="height: 55px;">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="text" class="form-control border-0 px-4" placeholder="Subject" style="height: 55px;">
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea class="form-control border-0 px-4 py-3" rows="8" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 wow slideInUp" data-wow-delay="0.6s">
+                        <div class="bg-light rounded p-5">
+                            <div class="d-flex align-items-center mb-2">
+                                <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
+                                <div class="text-start">
+                                    <h5 class="mb-1">Location</h5>
+                                    <span>Park Road, Islamabad Capital, Pakistan</span>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <i class="bi bi-envelope-open fs-1 text-primary me-3"></i>
+                                <div class="text-start">
+                                    <h5 class="mb-1">Email Us</h5>
+                                    <span>khatrideepak112@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-4">
+                                <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
+                                <div class="text-start">
+                                    <h5 class="mb-1">Call Us</h5>
+                                    <span>+92333-3760281</span>
+                                </div>
+                            </div>
+                            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Hostel City&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://formatjson.org/word-counter">Word Counter</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
 
-
-    <div class="outer-box">
-        <div class="inner-box">
-            <header class="signin-header">
-                <h1>SignIn</h1>
-                <p>Great to see you again!</p>
-            </header>
-            <main class="signin-body">
-                <form action="#">
-
-                    <p>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="deepak@xyz.com" required>
-                    </p>
-
-                    <p>
-                        <label for="password">Password</label>
-                        <input type="password" id="password" required>
-                    </p>
-
-                    <p>
-                        <input type="submit" id="submit" value="Get me In">
-                    </p>
-
-                </form>
-            </main>
-            <footer id="footer">
-                <p>Don't have an account? <a href="signup.html">Signup</a></p>
-            </footer>
-        </div> 
-    </div>
-
-
-
-    <!-- Footer Start -->
-    <div class="footer_section container-fluid bg-dark text-light mt-5 py-5 wow fadeInUp justify-content-center" data-wow-delay="0.1s">
+        <!-- Footer Start -->
+    <div id="contact_section" class="footer_section container-fluid bg-dark text-light mt-5 py-5 wow fadeInUp justify-content-center" data-wow-delay="0.1s">
         <div class="container pt-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -158,8 +184,8 @@
     </div>
     <!-- Footer End -->
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-secondary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+     <!-- Back to Top -->
+     <a href="#" class="scroll_top btn btn-lg btn-secondary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
      <!-- JavaScript Libraries -->
      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -171,5 +197,6 @@
 
      <!-- Template Javascript -->
     <script src="/code/frontend/logic/index.js"></script>
+
 </body>
 </html>
