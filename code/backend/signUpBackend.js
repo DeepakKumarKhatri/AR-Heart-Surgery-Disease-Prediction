@@ -1,5 +1,4 @@
-// Connecting Firebase as formal backend for this application
-
+// Connecting Firebase as formal backend for the signUp Form
 const firebaseConfig = {
     apiKey: "AIzaSyCG5e2fwXSAUbOphrIdrjb6_x6oFVedSM8",
     authDomain: "augmented-medico.firebaseapp.com",
@@ -15,21 +14,17 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 // reference for database
-var contactFormDB = firebase.database().ref('Augmented Medico')
+var signUpFormDB = firebase.database().ref('Sign Up')
 
-document.getElementById("contactForm").addEventListener("submit", submitForm);
+document.getElementById("SignUpForm").addEventListener("submit", submitForm);
 
 function submitForm(e) {
   e.preventDefault();
-
-  var name = getElementVal("name");
+  var fullname = getElementVal("fullname");
   var emailid = getElementVal("email");
-  var subjectMessage = getElementVal("subject");
-  var msgContent = getElementVal("message");
+  var password = getElementVal("password");
 
-//   console.log(name, emailid, subjectMessage, msgContent);
-
-  saveMessages(name, emailid, subjectMessage ,msgContent);
+  saveMessages(fullname,emailid,password);
 
   //   enable alert
   document.querySelector(".alert").style.display = "block";
@@ -40,17 +35,16 @@ function submitForm(e) {
   }, 2000);
 
   //   reset the form
-  document.getElementById("contactForm").reset();
+  document.getElementById("SignUpForm").reset();
 }
 
-const saveMessages = (name, emailid, subjectMessage ,msgContent) => {
-  var newAugmentedMedico = contactFormDB.push();
+const saveMessages = (fullname,emailid,password) => {
+  var newSignUpForm = signUpFormDB.push();
 
-  newAugmentedMedico.set({
-    name: name,
+  newSignUpForm.set({
+    fullname: fullname,
     emailid: emailid,
-    subjectMessage: subjectMessage,
-    msgContent: msgContent,
+    password: password,
   });
 };
 

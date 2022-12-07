@@ -81,8 +81,8 @@
         <p>It's easier than you think</p>
       </header>
       <main class="singup-body">
-        <form action="#">
-
+        <form id="SignUpForm" action="#">
+          <div class="alert">Signed Up Successfully</div>
           <p>
             <label for="fullname">Full Name</label>
             <input type="text" id="fullname" placeholder="Deepak Kumar Khatri" required>
@@ -173,6 +173,12 @@
      <script src="code/frontend/external_libraries/easing/easing.min.js"></script>
      <script src="code/frontend/external_libraries/waypoints/waypoints.min.js"></script>
      <script src="code/frontend/external_libraries/owlcarousel/owl.carousel.min.js"></script>
+
+      <!-- firebase Connection -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
+      <!-- Backend Logic -->
+      <script src="code/backend/signUpBackend.js"></script>
 
      <!-- Template Javascript -->
     <script src="code/frontend/logic/index.js"></script>
