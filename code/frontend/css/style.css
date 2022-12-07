@@ -218,6 +218,7 @@ h6,
 }
 
 .service-item div {
+    background-color: #aae3d5;
     z-index: 1;
 }
 
@@ -243,7 +244,7 @@ h6,
 }
 
 .service-item:hover * {
-    color: var(--light) !important;
+    color: #FFFBEB !important;
 }
 
 .bg-offer {
