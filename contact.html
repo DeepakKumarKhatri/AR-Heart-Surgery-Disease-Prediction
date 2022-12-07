@@ -79,21 +79,22 @@
                 <div class="row g-5">
                     <div class="col-lg-7 wow slideInUp" data-wow-delay="0.3s">
                         <div class="bg-light rounded p-5">
-                            <form>
+                            <form action="" id="contactForm">
+                                <div class="alert">Request Rent Successfully</div>
                                 <div class="row g-3">
-                                    <div class="col-6">
-                                        <input type="text" class="form-control border-0 px-4" placeholder="Your Name" style="height: 55px;">
+                                    <div class="inputBox col-6">
+                                        <input type="text" class="form-control border-0 px-4" id="name" placeholder="Your Name" style="height: 55px;">
                                     </div>
-                                    <div class="col-6">
-                                        <input type="email" class="form-control border-0 px-4" placeholder="Your Email" style="height: 55px;">
+                                    <div class="inputBox col-6">
+                                        <input type="email" class="form-control border-0 px-4" id="email" placeholder="Your Email" style="height: 55px;">
                                     </div>
-                                    <div class="col-12">
-                                        <input type="text" class="form-control border-0 px-4" placeholder="Subject" style="height: 55px;">
+                                    <div class="inputBox col-12">
+                                        <input type="text" class="form-control border-0 px-4" id="subject" placeholder="Subject" style="height: 55px;">
                                     </div>
-                                    <div class="col-12">
-                                        <textarea class="form-control border-0 px-4 py-3" rows="8" placeholder="Message"></textarea>
+                                    <div class="inputBox col-12">
+                                        <textarea class="form-control border-0 px-4 py-3" id="message" rows="8" placeholder="Message"></textarea>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="inputBox col-12">
                                         <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
                                     </div>
                                 </div>
@@ -194,6 +195,12 @@
      <script src="/AR-Heart-Surgery-Disease-Prediction/code/frontend/external_libraries/easing/easing.min.js"></script>
      <script src="/AR-Heart-Surgery-Disease-Prediction/code/frontend/external_libraries/waypoints/waypoints.min.js"></script>
      <script src="/AR-Heart-Surgery-Disease-Prediction/code/frontend/external_libraries/owlcarousel/owl.carousel.min.js"></script>
+
+     <!-- firebase Connection -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
+     <!-- Backend Logic -->
+     <script src="/AR-Heart-Surgery-Disease-Prediction/code/backend/backendConnection.js"></script>
 
      <!-- Template Javascript -->
     <script src="/AR-Heart-Surgery-Disease-Prediction/code/frontend/logic/index.js"></script>

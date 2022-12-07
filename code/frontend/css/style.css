@@ -287,3 +287,14 @@ h6,
 .testimonial-carousel .owl-item.center .testimonial-text * {
     color: #FFFFFF !important;
 }
+
+.alert{
+    width: 100%;
+    background: #5F8D4E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    display: none;
+}

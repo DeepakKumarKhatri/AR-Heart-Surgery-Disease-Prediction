@@ -1,1 +1,0 @@
-// Connecting Firebase as formal backend for this application
